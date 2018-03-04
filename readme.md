@@ -1,5 +1,7 @@
 # Simple NextJS PWA kick starter boilerplate
 
+This boilerplate is inspired by https://github.com/ooade/NextSimpleStarter
+
 ## Contents
 
 - [Installation](#installation)
@@ -8,20 +10,19 @@
 
 ### Installation
 
-Clone repo:
+Clone the repo:
 
 ```sh
 git clone https://github.com/srdjan/nextpwakicker.git
-cd NextKicker
+cd NextPWAKicker
 ```
 
-Make it your own:
+To make it your own, re-initialize the repo and set up your project:
+:
 
 ```sh
 rm -rf .git && git init && npm init
 ```
-
-> :information_source: This re-initializes the repo and sets up your project.
 
 Install the dependencies:
 
@@ -44,11 +45,15 @@ npm run build
 ```
 
 ### Deployment
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/ooade/NextPWAKicker)
 
+```sh
+npm run deploy
+```
 
 ### Contribution
-I'm open to contributions & suggestions in making this a lot better :hand:
+
+I'm open to contributions & suggestions
 
 ### License
+
 MIT

@@ -21,8 +21,8 @@ export default () => (
         <Link prefetch href='/'>
           <a className='nav-item'> Home</a>
         </Link>
-        <Link prefetch href='/myAccount'>
-          <a className='nav-item'> My Account</a>
+        <Link prefetch href='/about'>
+          <a className='nav-item'> About</a>
         </Link>
         <Link href='#'>
           <a className='nav-item' onClick={signOut}> Logout</a>
@@ -33,21 +33,18 @@ export default () => (
         <Link prefetch href='/'>
           <a className='nav-item'> Home</a>
         </Link>
-        <Link prefetch href='/login'>
-          <a className='nav-item'> Login</a>
-        </Link>
-        <Link prefetch href='/register'>
-          <a className='nav-item'> Register</a>
+        <Link	prefetch href="/about">
+          <a className='nav-item'> About</a>
         </Link>
       </nav>
     )}
     <div className='logo'>
       <a href='/'>
         <img
-          src='/static/images/logo.png'
+          src='/static/img/logo.png'
           width='97'
           height='21'
-          alt='Klinchit'
+          alt='NextJsPWAKicker'
         />
       </a>
     </div>

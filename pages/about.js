@@ -9,7 +9,12 @@ class Index extends React.Component {
 	render() {
 		return (
 			<Page>
-			<span>About!!</span>
+				<h2>About</h2>
+				<style jsx>{`
+          h2 {
+            margin: 30px;
+          }
+        `}</style>	
 			</Page>
 		)
 	}

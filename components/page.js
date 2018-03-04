@@ -37,7 +37,7 @@ export default class Page extends React.Component {
         <style jsx global>{`
           body {
             color: #e5e8f0;
-            background: #45494f;
+            background: #3c4679;
             margin: 0;
           }
         `}</style>

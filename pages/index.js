@@ -10,18 +10,12 @@ class Index extends React.Component {
 	render() {
 		return (
 			<Page>
-			<span>Hello!!</span>
-			<Link
-					prefetch
-					key="aboutPage"
-					href="/about"
-					as="/about">
-				<a
-					href="/about"
-				>
-					About
-				</a>
-				</Link>
+				<h2>Hello!!{' '}</h2>
+				<style jsx>{`
+          h2 {
+            margin: 30px;
+          }
+        `}</style>					
 			</Page>
 		)
 	}

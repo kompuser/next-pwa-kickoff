@@ -42,7 +42,7 @@ export default () => (
       .header {
         position: relative;
         z-index: 99999;
-        padding: 10px 0;
+        // padding: 10px 0;
       }
       #toggle {
         position: absolute;

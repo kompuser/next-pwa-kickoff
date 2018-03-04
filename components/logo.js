@@ -14,9 +14,9 @@ export default class Page extends React.Component {
         </div>
         <style jsx>{`
           .logo {
-            width: 30%;
-            padding-left: 150px;
-            margin-top: -30px;
+            display: inline;
+            padding-left: 35%;
+            // margin-top: -30px;
           }    
         `}</style>
       </span>

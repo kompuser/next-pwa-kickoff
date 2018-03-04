@@ -38,26 +38,11 @@ export default () => (
         </Link>
       </nav>
     )}
-    <div className='logo'>
-      <a href='/'>
-        <img
-          src='/static/img/logo.png'
-          width='97'
-          height='21'
-          alt='NextJsPWAKicker'
-        />
-      </a>
-    </div>
-
     <style jsx>{`
       .header {
         position: relative;
         z-index: 99999;
         padding: 10px 0;
-      }
-      .logo {
-        width: 97px;
-        margin: 0 auto;
       }
       #toggle {
         position: absolute;
@@ -106,8 +91,6 @@ export default () => (
       #toggle:checked ~ .nav .nav-item:before {
         opacity: 0;
       }
-
-      /* Toggle button */
       .button-toggle {
         position: absolute;
         display: inline-block;
@@ -129,7 +112,7 @@ export default () => (
         position: absolute;
         content: '';
         top: 50%;
-        left: 0;
+        left: 1%;
         width: 100%;
         height: 2px;
         background-color: #6d85ff;

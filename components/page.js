@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Navigation from '../components/navigation'
+import Logo from '../components/logo'
 
 export default class Page extends React.Component {
   render () {
@@ -31,6 +32,7 @@ export default class Page extends React.Component {
         </Head>
 
         <Navigation />
+        <Logo/>
 
         {this.props.children}
 

@@ -1,6 +1,6 @@
 # Simple NextJS PWA kick starter boilerplate
 
-This boilerplate is inspired by https://github.com/ooade/NextSimpleStarter
+This boilerplate is inspired by https://github.com/ooade/NextSimpleStarter, from https://github.com/ooade
 
 ## Contents
 

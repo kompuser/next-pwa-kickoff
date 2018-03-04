@@ -1,0 +1,37 @@
+{
+  "name": "nextpwakicker",
+  "version": "1.0.0",
+  "description": "Simple boilerplate to kickoff Next.JS PWA projects",
+  "main": "next.config.js",
+  "engines": {
+    "node": "^8.9.4"
+  },
+  "repository": {
+    "url": "https://github.com/srdjan/nextpwakicker.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build:next": "chmod -R u+x node_modules/next/dist/bin && next build",
+    "build": "npm run build:next",
+    "start:next": "next start",
+    "start": "NODE_ENV=production node server.js",
+    "deploy": "npm version patch && now --name=klinchit-mvp --public",
+    "format": "prettier-standard 'utils/*.js' 'lib/*.js' 'pages/*.js' 'components/*.js'"
+  },
+  "dependencies": {
+    "next": "5.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "prettier-standard": "8.0.0",
+    "sw-precache-webpack-plugin": "^0.11.4"
+  },
+  "keywords": [
+    "nextjs",
+    "pwa",
+    "react"
+  ],
+  "author": "Srdjan"
+}

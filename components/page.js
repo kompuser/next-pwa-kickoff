@@ -10,18 +10,14 @@ export default class Page extends React.Component {
         <Head>
           <title>"NextJS PWA Kicker"</title>
           <meta name='description' content='NextJS PWA Kicker - sample...' />
-          <meta
-            name='viewport'
-            content='width=device-width, initial-scale=1.0'
+          <meta name='viewport' content='width=device-width, initial-scale=1.0'
           />
-
           <link rel='manifest' href='/static/manifest.json' />
-
           <meta name='theme-color' content='#ff6600' />
           <link rel='shortcut icon' href='/static/icon.png' />
           <link rel='apple-touch-icon' href='/static/icon.png' />
 					<link rel="mask-icon" href="/static/favicon-mask.svg" color="#49B882" />
-    			<link rel="icon" href="/static/favicon.ico" />
+    			<link rel="icon" href="/static/favicon.ico?v=2" />
           <meta name='apple-mobile-web-app-title' content='Next PWA Kicker' />
           <meta
             name='apple-mobile-web-app-status-bar-style'

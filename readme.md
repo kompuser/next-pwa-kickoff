@@ -13,7 +13,7 @@ This boilerplate is inspired by https://github.com/ooade/NextSimpleStarter, by [
 Clone the repo:
 
 ```sh
-git clone https://github.com/srdjan/nextpwakicker.git
+git clone https://github.com/srdjan/next-pwa-kickoff.git
 cd NextPWAKicker
 ```
 

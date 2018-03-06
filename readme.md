@@ -14,11 +14,10 @@ Clone the repo:
 
 ```sh
 git clone https://github.com/srdjan/next-pwa-kickoff.git
-cd NextPWAKicker
+cd next-pwa-kickoff
 ```
 
 To make it your own, re-initialize the repo and set up your project:
-:
 
 ```sh
 rm -rf .git && git init && npm init
@@ -44,7 +43,10 @@ Generate a production build:
 npm run build
 ```
 
-### Deployment
+### Deployment - requires having (now-cli)[https://github.com/zeit/now-cli] installed
+```sh
+npm -g install now
+```
 
 ```sh
 npm run deploy

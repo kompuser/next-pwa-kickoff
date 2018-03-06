@@ -44,7 +44,7 @@ npm run build
 ```
 
 ### Deployment 
-this requires having (now-cli)[https://github.com/zeit/now-cli] installed:
+this requires having [now-cli](https://github.com/zeit/now-cli) installed:
 ```sh
 npm -g install now
 ```

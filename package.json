@@ -1,5 +1,5 @@
 {
-  "name": "nextpwakicker",
+  "name": "next-pwa-kickoff",
   "version": "1.0.0",
   "description": "Simple boilerplate to kickoff Next.JS PWA projects",
   "main": "next.config.js",
@@ -7,7 +7,7 @@
     "node": "^8.9.4"
   },
   "repository": {
-    "url": "https://github.com/srdjan/nextpwakicker.git"
+    "url": "https://github.com/srdjan/next-pwa-kickoff.git"
   },
   "license": "MIT",
   "scripts": {

@@ -43,10 +43,12 @@ Generate a production build:
 npm run build
 ```
 
-### Deployment - requires having (now-cli)[https://github.com/zeit/now-cli] installed
+### Deployment 
+(requires having (now-cli)[https://github.com/zeit/now-cli] installed:
 ```sh
 npm -g install now
 ```
+)
 
 ```sh
 npm run deploy

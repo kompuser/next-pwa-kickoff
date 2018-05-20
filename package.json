@@ -1,10 +1,10 @@
 {
   "name": "next-pwa-kickoff",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple boilerplate to kickoff Next.JS PWA projects",
   "main": "next.config.js",
   "engines": {
-    "node": "^8.10.0"
+    "node": "10.1.0"
   },
   "repository": {
     "url": "https://github.com/srdjan/next-pwa-kickoff.git"
@@ -20,12 +20,13 @@
     "format": "prettier-standard 'utils/*.js' 'lib/*.js' 'pages/*.js' 'components/*.js'"
   },
   "dependencies": {
-    "next": "5.0.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "next": "6.0.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "next-page-transitions": "1.0.0-alpha.3"
   },
   "devDependencies": {
-    "prettier-standard": "8.0.0",
+    "prettier-standard": "8.0.1",
     "sw-precache-webpack-plugin": "^0.11.5"
   },
   "keywords": [
@@ -33,5 +34,5 @@
     "pwa",
     "react"
   ],
-  "author": "Srdjan"
+  "author": "djidja8"
 }

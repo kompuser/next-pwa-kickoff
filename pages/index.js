@@ -1,23 +1,13 @@
 import React from 'react'
-import Page from '../components/page'
+import Link from 'next/link'
 
-class Index extends React.Component {
-	static async getInitialProps() {
-		return {}
-	}
-
-	render() {
-		return (
-			<Page>
-				<h2>Hello!!{' '}</h2>
-				<style jsx>{`
-          h2 {
-            margin: 30px;
-          }
-        `}</style>					
-			</Page>
-		)
-	}
-}
+const Index = () => (
+  <div>
+    <h1>Hello, world!</h1>
+    <Link href='/about'>
+      <a>About us</a>
+    </Link>
+  </div>
+)
 
 export default Index

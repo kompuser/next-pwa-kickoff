@@ -29,8 +29,7 @@ class About extends React.Component {
       <div>
         <h1>About us</h1>
         <p>
-          Notice how a loading spinner showed up while my content was "loading"?
-          Pretty neat, huh?
+         this is about ...
         </p>
         <Link href='/'>
           <a>Go back</a>

@@ -1,10 +1,10 @@
 {
   "name": "next-pwa-kickoff",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple boilerplate to kickoff Next.JS PWA projects",
-  "main": "next.config.js",
+  "main": "pages/index.js",
   "engines": {
-    "node": "10.1.0"
+    "node": "10.2.1"
   },
   "repository": {
     "url": "https://github.com/srdjan/next-pwa-kickoff.git"
@@ -20,9 +20,9 @@
     "format": "prettier-standard 'utils/*.js' 'lib/*.js' 'pages/*.js' 'components/*.js'"
   },
   "dependencies": {
-    "next": "6.0.3",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "next": "6.0.4-canary.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
     "next-page-transitions": "1.0.0-alpha.3"
   },
   "devDependencies": {
